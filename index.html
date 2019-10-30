@@ -11,79 +11,226 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 </head>
-<body class="bg-secondary h-100 w-100 ">
+<body class="bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Dropdown
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#">Disabled</a>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <div class="mb-3">
+        <img src="hero-bg.png" class="img-fluid"/>
+    </div>
 
     <div class="container-fluid">
-        <div class="row fill bg-dark p-2 m-3 text-light">
-            <div class="col-1">Twitch Icon</div>
-            <div class="col-1">Browse</div>
-            <div class="col-2">Try Prime</div>
-            <div class="col-5"><input type="text"><input type="submit" value="Search"></div>
-            <div class="col-1">Log In</div>
-            <div class="col-1">Sign Up</div>
-        </div>
-
-        <div class="row p-2 m-3">
-            <div class="col-2 btn-group-vertical">
-                <div class="btn-primary p-3">Recommended Channel</div>
-                <div class="btn-primary p-3">Recommended Channel</div>
-                <div class="btn-primary p-3">Recommended Channel</div>
-                <div class="btn-primary p-3">Recommended Channel</div>
-                <div class="btn-primary p-3">Recommended Channel</div>
-                <div class="btn-primary p-3">Recommended Channel</div>
-            </div>
-            <div class="col-2">
-                <div class="bg-info">
-                    <h1>This is a card waiting to carousel.</h1>
-                </div>
-            </div>
-
-            <div class="col-5">
-                <div class="bg-info h-75">
-                    <h1>This is a carousel of recommended streamers (pending).</h1>
-                </div>
-            </div>
-            <div class="col-2">
-                <div class="bg-info">
-                    <h1>this is a card waiting to carousel.</h1>
+        <div class="row">
+            <div class="col-lg-6 offset-lg-3">
+                <div class="alert alert-dark" role="alert">
+                      This is a dark alert—check it out!
                 </div>
             </div>
         </div>
-
         <div class="row p-2 m-3">
-            <div class="col-2">
-                <div class="jumbotron">
-                    This is a recommended live channel.
+            <div class="col-3">
+                <div class="card bg-dark text-white" style="">
+                     <img class="card-img-top" src="http://via.placeholder.com/300x180" alt="Card image cap">
+                        <div class="card-body">
+                            <div class="media">
+                                <img class="mr-3" src="http://via.placeholder.com/40x40" alt="Generic placeholder image">
+                                <div class="media-body">
+                                      <h5 class="mt-0">Media heading</h5>
+                                      Channel info text<br>
+                                      <span class="badge badge-pill badge-secondary">Pill Badge</span>
+                                      <span class="badge badge-pill badge-secondary">Another Pill Badge/span>
+                                </div>
+                            </div>
+                        </div>
                 </div>
             </div>
-            <div class="col-2">
-                <div class="jumbotron">
-                    This is a recommended live channel.
+            <div class="col-3">
+                <div class="card bg-dark text-white" style="">
+                     <img class="card-img-top" src="http://via.placeholder.com/300x180" alt="Card image cap">
+                        <div class="card-body">
+                            <div class="media">
+                                <img class="mr-3" src="http://via.placeholder.com/40x40" alt="Generic placeholder image">
+                                <div class="media-body">
+                                      <h5 class="mt-0">Media heading</h5>
+                                      Channel info text<br>
+                                      <span class="badge badge-pill badge-secondary">Pill Badge</span>
+                                      <span class="badge badge-pill badge-secondary">Another Pill Badge/span>
+                                </div>
+                            </div>
+                        </div>
                 </div>
             </div>
-            <div class="col-2">
-                <div class="jumbotron">
-                    This is a recommended live channel.
+            <div class="col-3">
+                <div class="card bg-dark text-white" style="">
+                     <img class="card-img-top" src="http://via.placeholder.com/300x180" alt="Card image cap">
+                        <div class="card-body">
+                            <div class="media">
+                                <img class="mr-3" src="http://via.placeholder.com/40x40" alt="Generic placeholder image">
+                                <div class="media-body">
+                                      <h5 class="mt-0">Media heading</h5>
+                                      Channel info text<br>
+                                      <span class="badge badge-pill badge-secondary">Pill Badge</span>
+                                      <span class="badge badge-pill badge-secondary">Another Pill Badge/span>
+                                </div>
+                            </div>
+                        </div>
                 </div>
             </div>
-            <div class="col-2">
-                <div class="jumbotron">
-                    This is a recommended live channel.
-                </div>
-            </div>
-            <div class="col-2">
-                <div class="jumbotron">
-                    This is a recommended live channel.
-                </div>
-            </div>
-            <div class="col-2">
-                <div class="jumbotron">
-                    This is a recommended live channel.
+            <div class="col-3">
+                <div class="card bg-dark text-white" style="">
+                     <img class="card-img-top" src="http://via.placeholder.com/300x180" alt="Card image cap">
+                        <div class="card-body">
+                            <div class="media">
+                                <img class="mr-3" src="http://via.placeholder.com/40x40" alt="Generic placeholder image">
+                                <div class="media-body">
+                                      <h5 class="mt-0">Media heading</h5>
+                                      Channel info text
+                                      <span class="badge badge-pill badge-secondary">Pill Badge</span>
+                                      <span class="badge badge-pill badge-secondary">Another Pill Badge/span>
+                                </div>
+                            </div>
+                        </div>
                 </div>
             </div>
         </div>
     </div>
 
+<div class="row">
+    <div class="col-4">
+        <div class="row ml-2 pt-3">
+            <div class="col-4">
+                <div class="card bg-dark text-white " style="">
+                     <img class="card-img-top" src="http://via.placeholder.com/60x85" alt="Card image cap">
+                        <div class="card-body">
+                            <div class="media">
+                                      <span class="badge badge-pill badge-secondary">Game</span>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card bg-dark text-white " style="">
+                     <img class="card-img-top" src="http://via.placeholder.com/60x85" alt="Card image cap">
+                        <div class="card-body">
+                            <div class="media">
+                                      <span class="badge badge-pill badge-secondary">Game</span>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card bg-dark text-white " style="">
+                     <img class="card-img-top" src="http://via.placeholder.com/60x85" alt="Card image cap">
+                        <div class="card-body">
+                            <div class="media">
+                                      <span class="badge badge-pill badge-secondary">Game</span>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-4">
+        <div class="row ml-2 pt-3">
+            <div class="col-4">
+                <div class="card bg-dark text-white " style="">
+                     <img class="card-img-top" src="http://via.placeholder.com/60x85" alt="Card image cap">
+                        <div class="card-body">
+                            <div class="media">
+                                      <span class="badge badge-pill badge-secondary">Game</span>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card bg-dark text-white " style="">
+                     <img class="card-img-top" src="http://via.placeholder.com/60x85" alt="Card image cap">
+                        <div class="card-body">
+                            <div class="media">
+                                      <span class="badge badge-pill badge-secondary">Game</span>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card bg-dark text-white " style="">
+                     <img class="card-img-top" src="http://via.placeholder.com/60x85" alt="Card image cap">
+                        <div class="card-body">
+                            <div class="media">
+                                      <span class="badge badge-pill badge-secondary">Game</span>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-4">
+        <div class="row ml-2 pt-3">
+            <div class="col-4">
+                <div class="card bg-dark text-white " style="">
+                     <img class="card-img-top" src="http://via.placeholder.com/60x85" alt="Card image cap">
+                        <div class="card-body">
+                            <div class="media">
+                                      <span class="badge badge-pill badge-secondary">Game</span>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card bg-dark text-white " style="">
+                     <img class="card-img-top" src="http://via.placeholder.com/60x85" alt="Card image cap">
+                        <div class="card-body">
+                            <div class="media">
+                                      <span class="badge badge-pill badge-secondary">Game</span>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card bg-dark text-white " style="">
+                     <img class="card-img-top" src="http://via.placeholder.com/60x85" alt="Card image cap">
+                        <div class="card-body">
+                            <div class="media">
+                                      <span class="badge badge-pill badge-secondary">Game</span>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 
